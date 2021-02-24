@@ -40,7 +40,7 @@ input,
 select,
 textarea,
 button {
-  font: 400 16rem 'Inter', sans-serif;
+  font: 400 1rem 'Inter', sans-serif;
 }
 
 button {
@@ -50,44 +50,4 @@ button {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.container {
-  height: 100vh;
-  min-width: 992px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.experience-bar {
-  display: flex;
-  align-items: center;
-}
-
-.experience-bar span {
-  font-size: 1rem;
-}
-
-.experience-bar > div {
-  flex: 1;
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--gray-line);
-  margin: 0 1.5rem;
-  position: relative;
-}
-
-.experience-bar > div > div {
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--green);
-}
-
-span.current-experience {
-  position: absolute;
-  top: 12px;
-  transform: translateX(-50%);
 }
