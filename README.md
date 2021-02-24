@@ -41,7 +41,7 @@ This project is for study purposes too, so send me an email telling me what you 
 
 <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/71350840?s=400&u=02afaa6318aee076b5e3a398e531296a7fb30dc0&v=4" width="100px;" alt=""/>
 
-By Ana Torres 👋🏽 Find me!
+By Ana Torres 👋🏽 Find me:
 
 [![Linkedin Badge](https://img.shields.io/badge/-anabrtorres-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anabrtorres/)](https://www.linkedin.com/in/anabrtorres/)
 [![Gmail Badge](https://img.shields.io/badge/-anabrtorres19@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:anabrtorres19@gmail.com)](mailto:anabrtorres19@gmail.com)
