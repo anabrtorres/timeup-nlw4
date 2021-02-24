@@ -28,6 +28,7 @@ Track your time and be more productive. The layout of Move.it is available <a hr
 The following tools were used in the construction of the project:
 
 - [React](https://reactjs.org)
+- [Next](https://nextjs.org)
 - [Node.js](https://nodejs.org/en/)
 - [VSCode](https://code.visualstudio.com)
 - [Git Bash](https://gitforwindows.org/)
