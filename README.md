@@ -1,5 +1,5 @@
 <h1 align="center">
-    Time Up | React
+    Time Up | NLW#4
 </h1>
 <p align="center"> Application developed in the fourth edition of Rocketseat Next Level Week 💻🚀 </p>
 
@@ -16,7 +16,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧 Time Up | WebApp ⏰📈 Loading...  🚧
+	🚧 Time Up | NLW#4 ⏰📈 Loading...  🚧
 </h4>
 
 <h2 id="objective" > 🎯 Objective </h2>
