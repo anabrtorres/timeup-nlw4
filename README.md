@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-  <img width="500" style="border-radius: 10px" height="auto" alt="MoveIt" title="#MoveIt" src="public/assets/design.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="MoveIt" title="#MoveIt" src="public/assets/home.png" />
 </h1>
 
 <h4 align="center"> 
