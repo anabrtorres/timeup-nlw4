@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-  <img width="500" style="border-radius: 10px" height="auto" alt="MoveIt" title="#MoveIt" src="public/assets/home.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="MoveIt" title="MoveIt" src="public/assets/home.png" />
 </h1>
 
 <h4 align="center"> 
@@ -21,7 +21,7 @@
 
 <h2 id="objective" > 🎯 Objective </h2>
 
-Track your time and be more productive. The layout of Move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
+Track your time, be more productive and take care of your health. The layout of Move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
 
 <h2 id="technologies"> 🛠 Technologies </h2>
 
