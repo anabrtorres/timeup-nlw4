@@ -1,25 +1,28 @@
 .container {
+  width: 100%;
+  display: flex;
+}
+
+.content {
   height: 100vh;
-  max-width: 992px;
+  width: 70%;
+  max-width: 950px;
   margin: 0 auto;
-  padding: 2.5rem 2rem;
+  padding: 2.2rem 2rem;
 
   display: flex;
   flex-direction: column;
 }
 
-.container section {
-  flex: 1;
-
+.content section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-content: center;
 }
 
-@media (max-width: 768px) {
-  .container section {
+@media (max-width: 980px) {
+  .content section {
     grid-template-columns: 1fr;
-    padding: 5rem 0 3rem;
   }
 }

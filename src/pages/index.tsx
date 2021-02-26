@@ -10,6 +10,7 @@ import styles from '../styles/pages/Home.module.css';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengeProvider } from '../contexts/ChallengeContext';
+import { Sidebar } from '../components/SideBar';
 
 interface HomeProps {
   level: number;
@@ -29,20 +30,24 @@ export default function Home(props: HomeProps) {
           <title>Home | TimeUp</title>
         </Head>
 
-        <ExperienceBar />
+        <Sidebar />
 
-        <CountdownProvider>
-          <section className={styles.content}>
-            <div>
-              <Profile />
-              <CompletedChalenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
+        <div className={styles.content}>
+          <ExperienceBar />
+
+          <CountdownProvider>
+            <section>
+              <div>
+                <Profile />
+                <CompletedChalenges />
+                <Countdown />
+              </div>
+              <div>
+                <ChallengeBox />
+              </div>
+            </section>
+          </CountdownProvider>
+        </div>
       </div>
     </ChallengeProvider>
   );
