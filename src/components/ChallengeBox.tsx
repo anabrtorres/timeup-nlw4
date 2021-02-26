@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { FiThumbsDown, FiThumbsUp } from 'react-icons/fi';
 import { ChallengeContext } from '../contexts/ChallengeContext';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/ChallengeBox.module.css';
@@ -36,6 +37,7 @@ export function ChallengeBox() {
               onClick={handleChallengeFailed}
             >
               Falhei
+              <FiThumbsDown />
             </button>
             <button
               type="button"
@@ -43,16 +45,15 @@ export function ChallengeBox() {
               onClick={handleChallengeSucceeded}
             >
               Completei
+              <FiThumbsUp />
             </button>
           </footer>
         </div>
       ) : (
         <div className={styles.challengeNotActive}>
-          <strong>Finalize um ciclo para receber um desafio</strong>
-          <p>
-            <img src="icons/level-up.svg" alt="Level Up" />
-            Avance de nível completando desafios.
-          </p>
+          <strong>Complete a contagem para receber um desafio</strong>
+          <img src="icons/level-up.svg" alt="Level Up" />
+          <p>Suba de nível completando desafios.</p>
         </div>
       )}
     </div>

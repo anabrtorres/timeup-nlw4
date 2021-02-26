@@ -31,6 +31,7 @@
 }
 
 body {
+  min-width: 420px;
   background: var(--background);
   color: var(--text);
 }
@@ -40,7 +41,7 @@ input,
 select,
 textarea,
 button {
-  font: 400 1rem 'Inter', sans-serif;
+  font: 400 1rem 'Montserrat', sans-serif;
 }
 
 button {

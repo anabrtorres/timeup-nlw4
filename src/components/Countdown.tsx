@@ -2,6 +2,8 @@ import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
+import { FiPlayCircle, FiXCircle } from 'react-icons/fi';
+
 export function Countdown() {
   const {
     minutes,
@@ -42,6 +44,7 @@ export function Countdown() {
               onClick={resetCountdown}
             >
               Abandonar
+              <FiXCircle size={22} />
             </button>
           ) : (
             <button
@@ -50,6 +53,7 @@ export function Countdown() {
               onClick={startCountdown}
             >
               Começar a contagem
+              <FiPlayCircle size={22} />
             </button>
           )}
         </>

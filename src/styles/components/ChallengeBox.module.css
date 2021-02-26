@@ -27,16 +27,13 @@
 }
 
 .challengeNotActive p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   line-height: 1.4;
   min-width: 70%;
-  margin-top: 3rem;
 }
 
-.challengeNotActive p img {
-  margin-bottom: 1rem;
+.challengeNotActive img {
+  width: 60px;
+  margin: 2rem 0;
 }
 
 .challengeActive {
@@ -74,6 +71,7 @@
 }
 
 .challengeActive footer {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -95,6 +93,10 @@
   font-weight: 600;
 
   transition: filter 0.2s;
+}
+
+.challengeActive footer svg {
+  margin-left: 0.5rem;
 }
 
 .challengeActive footer button.challengeFailedButton {

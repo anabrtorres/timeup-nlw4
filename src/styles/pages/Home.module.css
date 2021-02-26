@@ -16,3 +16,10 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+@media (max-width: 768px) {
+  .container section {
+    grid-template-columns: 1fr;
+    padding: 5rem 0 3rem;
+  }
+}
