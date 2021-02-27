@@ -51,8 +51,6 @@ $ yarn
 
 # Run Aplication
 $ yarn dev
-# or
-$ npm run dev
 
 # Access localhost
 http://localhost:3000
