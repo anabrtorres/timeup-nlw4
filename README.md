@@ -13,7 +13,11 @@
 </p>
 
 <h1 align="center">
-  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/homepage.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/login.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/home.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/count.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/challenge.png" />
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/level.png" />
 </h1>
 
 <h4 align="center"> 
