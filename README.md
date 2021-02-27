@@ -5,6 +5,7 @@
 
 <p align="center">
  <a href="#objective">Objective</a> •
+ <a href="#usage">Usage</a> •
  <a href="#technologies">Technologies</a> • 
  <a href="#contribution">Contribution</a> • 
  <a href="#author">Author</a> • 
@@ -27,11 +28,35 @@ Track your time, be more productive and take care of your health. The layout of 
 
 The following tools were used in the construction of the project:
 
-- [React](https://reactjs.org)
-- [Next](https://nextjs.org)
-- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org)
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com) or Npm
 - [VSCode](https://code.visualstudio.com)
 - [Git Bash](https://gitforwindows.org/)
+
+<h2 id="usage" > 👷 Usage </h2>
+
+Required! Install git, node and npm or yarn.
+
+```bash
+# Clone Repository
+$ git clone https://github.com/anabrtorres/timeup-nlw4.git
+
+# Go to server folder
+$ cd timeup
+
+# Install Dependencies
+$ yarn
+
+# Run Aplication
+$ yarn dev
+# or
+$ npm run dev
+
+# Access localhost
+http://localhost:3000
+```
 
 <h2 id="contribution"> 🤝 Contribution </h2>
 

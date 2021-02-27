@@ -34,7 +34,7 @@ export default function Profile() {
         <title>Home | TimeUp</title>
       </Head>
       <div className={styles.content}>
-        <img src="logo-text.png" alt="Logo" />
+        <img src="logo/logo-text.png" alt="Logo" />
         <strong>Bem-vindo</strong>
 
         <div className={styles.title}>

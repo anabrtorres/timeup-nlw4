@@ -5,7 +5,7 @@ import styles from '../styles/components/Sidebar.module.css';
 export function Sidebar() {
   return (
     <div className={styles.container}>
-      <img src="timeup-blue.png" alt="timeup" />
+      <img src="logo/timeup-blue.png" alt="timeup" />
       <div className={styles.buttons}>
         <button type="button">
           <div></div>

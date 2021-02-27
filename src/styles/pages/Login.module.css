@@ -3,7 +3,7 @@
   height: 100vh;
   padding: 1rem;
 
-  background: url(/timeup-bg.png) no-repeat top left,
+  background: url(/logo/timeup-bg.png) no-repeat top left,
     linear-gradient(96.07deg, #1887b6 -19.93%, #30c1ff 100%);
   color: var(--white);
 
