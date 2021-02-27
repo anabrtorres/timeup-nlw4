@@ -1,0 +1,96 @@
+.container {
+  width: 112px;
+  height: 100vh;
+  background-color: var(--white);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 980px) {
+  .container {
+    width: 100%;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .buttons button div {
+    visibility: hidden;
+    display: none;
+  }
+  .container img {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.container img {
+  top: 50px;
+  width: 65px;
+  position: fixed;
+}
+
+.container div.logOut {
+  bottom: 50px;
+  position: fixed;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container div.logOut svg {
+  color: var(--text);
+}
+
+.container div.logOut svg:hover {
+  color: var(--red);
+}
+
+.buttons svg {
+  margin: auto 2.5rem;
+}
+
+.buttons button {
+  width: 112px;
+  display: flex;
+  align-items: center;
+
+  color: var(--blue);
+  background-color: var(--white);
+  border: none;
+}
+
+.buttons button:disabled {
+  color: var(--gray);
+}
+
+.buttons button div {
+  width: 5px;
+  height: 56px;
+  margin: 0.5rem 0;
+  background-color: var(--blue);
+  border-radius: 0 5px 5px 0;
+}
+
+.buttons button:disabled div {
+  background-color: var(--white);
+}

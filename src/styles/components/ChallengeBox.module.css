@@ -21,7 +21,7 @@
 }
 
 .challengeNotActive strong {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -46,7 +46,7 @@
 .challengeActive header {
   color: var(--blue);
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding: 0 2rem 1.5rem;
   border-bottom: 1px solid var(--grey-line);
 }

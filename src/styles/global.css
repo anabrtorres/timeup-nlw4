@@ -7,7 +7,7 @@
 :root {
   --white: #fff;
   --background: #f2f3f5;
-  --gray-line: #dcdde0;
+  --gray: #dcdde0;
   --text: #666;
   --text-highlight: #8fd0ec;
   --title: #082836;
@@ -31,7 +31,7 @@
 }
 
 body {
-  min-width: 420px;
+  min-width: 380px;
   background: var(--background);
   color: var(--text);
 }
