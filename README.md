@@ -13,7 +13,7 @@
 </p>
 
 <h1 align="center">
-  <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/login.png" />
+  <img width="300" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/login.png" />
 <div style="display: flex; flex-direction: row;">
   <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/count.png" />
   <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/home.png" />
