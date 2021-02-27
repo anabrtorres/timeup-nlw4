@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(/timeup-bg.png) no-repeat top left,
+    linear-gradient(96.07deg, #1887b6 -19.93%, #30c1ff 100%);
+  color: var(--white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .buttons button div {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.content {
+  margin: 0 15rem 0 auto;
+  display: grid;
+}
+.content img {
+  height: 120px;
+}
+.content strong {
+  margin: 8rem 0 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.title span {
+  max-width: 300px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.content form {
+  order: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.container input {
+  order: 1;
+  width: 100%;
+  padding: 10px;
+  margin-right: 5px;
+
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background: transparent;
+  color: #080715;
+}
+.container input:placeholder {
+  color: #bfbfbf;
+}
+
+.container button {
+  order: 2;
+
+  width: 60px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--blue);
+  border: none;
+  border-radius: 5px;
+}
+.container button svg {
+  color: var(--white);
+}

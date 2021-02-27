@@ -43,6 +43,28 @@
   position: fixed;
 }
 
+.container div.logOut {
+  bottom: 50px;
+  position: fixed;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container div.logOut svg {
+  color: var(--text);
+}
+
+.container div.logOut svg:hover {
+  color: var(--red);
+}
+
 .buttons svg {
   margin: auto 2.5rem;
 }

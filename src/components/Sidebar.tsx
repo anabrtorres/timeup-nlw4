@@ -1,6 +1,5 @@
-import { useContext } from 'react';
-import { FiAward, FiHome } from 'react-icons/fi';
-import { ChallengeContext } from '../contexts/ChallengeContext';
+import Link from 'next/link';
+import { FiAward, FiHome, FiLogOut } from 'react-icons/fi';
 import styles from '../styles/components/Sidebar.module.css';
 
 export function Sidebar() {
@@ -16,6 +15,11 @@ export function Sidebar() {
           <div></div>
           <FiAward size={32} />
         </button>
+      </div>
+      <div className={styles.logOut}>
+        <Link href="/">
+          <FiLogOut size={28} />
+        </Link>
       </div>
     </div>
   );
