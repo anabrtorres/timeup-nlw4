@@ -5,8 +5,8 @@
 
 <p align="center">
  <a href="#objective">Objective</a> •
- <a href="#usage">Usage</a> •
  <a href="#technologies">Technologies</a> • 
+ <a href="#usage">Usage</a> • 
  <a href="#contribution">Contribution</a> • 
  <a href="#author">Author</a> • 
  <a href="#license">License</a>
