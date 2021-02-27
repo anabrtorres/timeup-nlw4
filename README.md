@@ -30,7 +30,9 @@
 
 <h2 id="objective" > 🎯 Objective </h2>
 
-Track your time, be more productive and take care of your health. The layout of Move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
+Track your time, be more productive and take care of your health. TimeUp was developed for time management, as in the pomodoro technique, dividing the work into 25 minute periods. After that time it releases a challenge, which is some stretching for the body or exercise for the eyes. Each challenge has its xp points and, accumulating the points you level up.
+
+The layout of original move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
 
 <h2 id="technologies"> 🛠 Technologies </h2>
 
