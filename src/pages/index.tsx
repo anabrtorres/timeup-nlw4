@@ -30,12 +30,12 @@ export default function Profile() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.bgImg}> </div>
+      <div className={styles.bg}></div>
       <Head>
         <title>Home | TimeUp</title>
       </Head>
       <div className={styles.content}>
-        <img src="logo-text-white.png" alt="Logo" />
+        <img src="logo-text.png" alt="Logo" />
         <strong>Bem-vindo</strong>
 
         <div className={styles.title}>
