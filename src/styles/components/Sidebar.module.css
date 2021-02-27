@@ -13,7 +13,7 @@
 @media (max-width: 980px) {
   .container {
     width: 100%;
-    height: 75px;
+    height: 60px;
     bottom: 0;
     left: 0;
 
@@ -32,6 +32,10 @@
     display: none;
   }
   .container img {
+    visibility: hidden;
+    display: none;
+  }
+  .container div.logOut {
     visibility: hidden;
     display: none;
   }

@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 980px) {
+  .content {
+    width: 95%;
+    margin-bottom: 350px;
+  }
   .content section {
     grid-template-columns: 1fr;
   }
