@@ -12,23 +12,9 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
-  .content {
-    padding: 1rem;
-  }
-  .buttons {
-    display: flex;
-    flex-direction: row;
-  }
-  .buttons button div {
-    visibility: hidden;
-    display: none;
-  }
-}
-
 .content {
-  width: 100%;
-  left: 50%;
+  width: 50%;
+  margin-left: 55%;
   display: grid;
 }
 .content img {
@@ -38,6 +24,12 @@
   margin: 5rem 0 2rem;
   font-size: 2rem;
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .title {
@@ -101,4 +93,15 @@
 }
 .container button svg {
   color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .buttons button div {
+    visibility: hidden;
+    display: none;
+  }
 }

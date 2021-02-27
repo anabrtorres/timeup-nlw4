@@ -39,7 +39,7 @@ export default function Profile() {
 
         <div className={styles.title}>
           <FiGithub size={36} />
-          <span>Faça login com seu GitHub para iniciar</span>
+          <span>Faça login com seu GitHub para iniciar.</span>
         </div>
 
         <form onSubmit={handleSubmit}>
