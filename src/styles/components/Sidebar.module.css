@@ -1,5 +1,5 @@
 .container {
-  width: 112px;
+  width: 90px;
   height: 100vh;
   background-color: var(--white);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
@@ -70,16 +70,16 @@
 }
 
 .buttons svg {
-  margin: auto 2.5rem;
+  margin: auto 1.8rem;
 }
 
 .buttons button {
-  width: 112px;
+  width: 90px;
   display: flex;
   align-items: center;
 
   color: var(--blue);
-  background-color: var(--white);
+  background-color: transparent;
   border: none;
 }
 
