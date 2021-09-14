@@ -1,54 +1,51 @@
 <h1 align="center">
-    Máquina de Turing Universal com Heurísicas
+    Time Up | NLW#4
 </h1>
-<p align="center"> Trabalho prático em desenvolvimento na disciplina de Teoria da Computação 💻🚀 </p>
+<p align="center"> Application developed in the fourth edition of Rocketseat Next Level Week 💻🚀 </p>
 
 <p align="center">
- <a href="#objective">Objetivo</a> •
- <a href="#technologies">Tecnologias</a> • 
- <a href="#start">Começar</a> • 
- <a href="#author">Autores</a> • 
- <a href="#license">Licença</a>
+ <a href="#objective">Objective</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#contribution">Contribution</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#license">License</a>
 </p>
 
+<h1 align="center">
+  <img width="500" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/homepage.png" />
+</h1>
+
 <h4 align="center"> 
-	🚧 UH | Loading...  🚧
+	🚧 Time Up | NLW#4 ⏰📈 Loading...  🚧
 </h4>
 
-<h2 id="objective" > 🎯 Objetivo </h2>
+<h2 id="objective" > 🎯 Objective </h2>
 
-Deve ser implementado uma Máquina de Turing Universal que implemente heurísticas para o Problema da Parada.
+Track your time, be more productive and take care of your health. The layout of Move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
 
-<h2 id="technologies"> 🛠 Tecnologias </h2>
+<h2 id="technologies"> 🛠 Technologies </h2>
 
-As tecnologias utilizada nesse trabalho são:
+The following tools were used in the construction of the project:
 
-- [Python3](https://python.org/)
+- [React](https://reactjs.org)
+- [Next](https://nextjs.org)
+- [Node.js](https://nodejs.org/en/)
 - [VSCode](https://code.visualstudio.com)
 - [Git Bash](https://gitforwindows.org/)
 
-<h2 id="start" > 👷 Começar </h2>
+<h2 id="contribution"> 🤝 Contribution </h2>
 
-Sua chamada é por linha de comando, por exemplo:
+This project is for study purposes too, so send me an email telling me what you are doing and why you are doing it, teach me what you know. All kinds of contributions are very welcome and appreciated!
 
-```bash
-Python programa.py argumento1
-```
+<h2 id="author"> 💻 Author </h2>
 
-<h2 id="author"> 💻 Autores </h2>
+<img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/71350840?s=400&u=02afaa6318aee076b5e3a398e531296a7fb30dc0&v=4" width="100px;" alt=""/>
 
-<div style="display: flex; gap: 3rem;">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
-        <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/71350840?s=400&u=02afaa6318aee076b5e3a398e531296a7fb30dc0&v=4" width="100px;" alt=""/>
-        Ana Beatriz Torres
-    </div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
-        <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/71350840?s=400&u=02afaa6318aee076b5e3a398e531296a7fb30dc0&v=4" width="100px;" alt=""/>
-        Jhonatan Gardioli
-    </div>
-</div>
+By Ana Torres 👋🏽 Find me:
 
+[![Linkedin Badge](https://img.shields.io/badge/-anabrtorres-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anabrtorres/)](https://www.linkedin.com/in/anabrtorres/)
+[![Gmail Badge](https://img.shields.io/badge/-anabrtorres19@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:anabrtorres19@gmail.com)](mailto:anabrtorres19@gmail.com)
 
-<h2 id="license"> 📝 Licença </h2>
+<h2 id="license"> 📝 License </h2>
 
-Esse projeto está sob a licença do MIT.
+This project is under the MIT license.
